@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;900&family=Roboto:ital,wght@0,100;0,400;1,500;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <div class="bg-image"></div>
+
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <a class="navbar-link" href="articles.html">Статьи</a>
+        <a class="navbar-link" href="catalog.html">Каталог</a>
+        <a class="navbar-link" href="contacts.html">Контакты</a>
+        <a class="navbar-link" href="gallery.html">Галерея</a>
+        <a class="navbar-link" href="page-nav.html">Навигация</a>
+        <a class="navbar-link" href="registration.html">Регистрация</a>
+        <a class="navbar-link" href="../index.html">Главная</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <h1>Регистрация</h1>
+
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+      <fieldset>
+
+        <div class="form-group">
+          <label class="form-label" for="text">Фамилия,Имя</label>
+          <input name="text" id="text" type="text" placeholder="Фамилия,Имя">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="file">Добавьте фотографию</label>
+          <input name="file" id="file" type="file">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Адрес электронной почты</label>
+          <input name="email" id="email" type="email" placeholder="Адрес электронной почты">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="password">Пароль</label>
+          <input name="password" id="password" type="password" placeholder="Пароль">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="url">Адрес сайта</label>
+          <input name="url1" id="url" type="url" placeholder="https://mysite.name">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="date">Выбрать дату рождения</label>
+          <input id="date" name="date" type="date">
+        </div>
+
+        <div class="hidden">
+          <input name="hid" type="hidden">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Выбор пола:</legend>
+
+        <div class="form-group-sm">
+          <label for="gender-male">Мужской</label>
+          <input id="gender-male" type="radio" name="gender" value="male">
+        </div>
+
+        <div class="form-group-sm">
+          <label for="gender-female">Женский</label>
+          <input id="gender-female" type="radio" name="gender" value="female">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>Выбрать предпочитаемую кухню:</legend>
+
+        <div class="form-group-sm">
+          <label for="kitchen-ua">Украинская</label>
+          <input id="kitchen-ua" type="checkbox" name="kitchen" value="ua">
+        </div>
+
+        <div class="form-group-sm">
+          <label for="kitchen-gr">Грузинская</label>
+          <input id="kitchen-gr" type="checkbox" name="kitchen" value="gr">
+        </div>
+
+        <div class="form-group-sm">
+          <label for="kitchen-pl">Польская</label>
+          <input id="kitchen-pl" type="checkbox" name="kitchen" value="ua">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div class="form-group">
+          <label class="form-label" for="slova">Информация о себе</label>
+          <textarea name="slova" placeholder="Введите информацию о себе" id="slova" cols="50" rows="10"></textarea>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+        <div class="btn-group">
+          <button class="button" type="submit" value="Зарегестрироваться">Зарегестрироваться</button>
+          <button class="button" type="reset" value="Очистить форму">Очистить форму</button>
+        </div>
+      </fieldset>
+
+    </form>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">&copy; Vovkushevskiy D.</div>
+  </footer>
+
+</body>
+
+</html>
